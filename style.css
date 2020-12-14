@@ -1,0 +1,27 @@
+body {
+  background-image: linear-gradient(
+    111.6deg,
+    rgba(174, 68, 223, 1) 27.3%,
+    rgba(246, 135, 135, 1) 112.7%
+  );
+}
+
+.clock {
+  font-size: 100px;
+  /* width: 900px; */
+  text-align: center;
+  color: antiquewhite;
+}
+@media (max-width: 768px) {
+  .clock {
+    font-size: 70px;
+  }
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
